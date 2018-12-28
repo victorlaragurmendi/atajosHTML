@@ -1,0 +1,2 @@
+atajos html con emet:
+html:5 +tab =crea un esqueleto html5
