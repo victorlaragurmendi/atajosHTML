@@ -67,6 +67,42 @@ article.secundaria.negrita.clase3  etiqueta asociada a varias clases
 		<article class="secundaria negrita clase3"></article>
 
 
+etiqueta#id.clase1.clase2 TAB  = selectores conbinados,combinar entre ids y clases
+
+figure#idnombre.clase1.clase2
+		<figure id="idnombre" class="clase1 clase2"></figure>
+
+
+etiqueta#id$*numerodeseado TAB =   ids con el numero consecutivo
+nav#idnombre$*5
+		<nav id="idnombre1"></nav>
+		<nav id="idnombre2"></nav>
+		<nav id="idnombre3"></nav>
+		<nav id="idnombre4"></nav>
+		<nav id="idnombre5"></nav>
+
+etiqueta{contenidovisualizable} TAB =mostrar contenido visualizable
+li{Opcion 1}*4
+		<li>Opcion 1</li>
+		<li>Opcion 1</li>
+		<li>Opcion 1</li>
+		<li>Opcion 1</li>
+li{Opcion $}*4
+		<li>Opcion 1</li>
+		<li>Opcion 2</li>
+		<li>Opcion 3</li>
+		<li>Opcion 4</li>
+
+li({Opcion $})*4#idnombre$  en caso de querer combinar el contenido con los id se selecciona el contenido entre 			    parentesis
+		<div id="idnombre1">Opcion 1</div>
+		<div id="idnombre2">Opcion 2</div>
+		<div id="idnombre3">Opcion 3</div>
+		<div id="idnombre4">Opcion 4</div>
+
+
+
+
+
 
 
 
