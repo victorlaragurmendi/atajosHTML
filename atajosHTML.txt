@@ -1,2 +1,43 @@
 atajos html con emet:
-html:5 +tab =crea un esqueleto html5
+
+html:5 TAB =crea un esqueleto html5
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Document</title>
+		</head>
+		<body>
+	
+		</body>
+		</html>
+
+
+nombreetiqueta TAB =crea la estructura de una etiqueta
+div TAB 
+	<div></div>
+
+
+hno + hno + hno TAB = elementos hermanos son las etiquetas qeu estan una a continucion de otra al mismo nivel
+header+div+footer
+	<header></header>
+	<div></div>
+	<footer></footer> 
+
+
+padre>hijo>nieto TAB = anidar etiquetas
+header>nav>ul>li>a
+
+		<header>
+			<nav>
+				<ul>
+					<li><a href=""></a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+agrupaciones con parentesis
+ 
+
+
