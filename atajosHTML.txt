@@ -37,7 +37,39 @@ header>nav>ul>li>a
 		</header>
 
 
-agrupaciones con parentesis
+(>+...)>+... TAB  = agrupaciones con parentesis en los parentesis se hace las operaciones para el conjunto 		           independiente
+header>(nav>ul>li*5>a)+(figure>(img+figcaption))+h1
+
+		<header>
+			<nav>
+				<ul>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</nav>
+			<figure>
+				<img src="" alt="">
+				<figcaption></figcaption>
+			</figure>
+			<h1></h1>
+		</header>
+
+
+.clase TAB  = selectores de clases si solo se pone .clase crea una clase div por defecto para crear una         	      clase de  una etiqueta se debe especificar article.clase por ejemplo
+.clase1
+		<div class="clase1"></div>
+article.clase2
+		<article class="clase2"></article>
+article.secundaria.negrita.clase3  etiqueta asociada a varias clases
+		<article class="secundaria negrita clase3"></article>
+
+
+
+
+
  
 
 
